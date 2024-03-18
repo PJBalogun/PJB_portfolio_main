@@ -9,7 +9,7 @@ type Testimonial = {
   job: string
 };
 
-
+type ee = string;
 export const skills: Skill[] = [
   {
     title: "HTML",

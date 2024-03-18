@@ -23,7 +23,7 @@ function Testimonials() {
 								<>
 									<img
 										className="sqD top-[-50px] left-0 bottom-auto right-auto md:bottom-[-50px] md:top-auto md:right-[-25px] md:left-auto w-20 z-[-100]"
-										src=""
+										src="#"
 									/>
 								</>
 							)}
@@ -37,7 +37,7 @@ function Testimonials() {
 							{index === 2 && (
 								<img
 									className="sqD top-[-30px] right-[-15px] w-11"
-									src=""
+									src="#"
 								/>
 							)}
 						</motion.div>

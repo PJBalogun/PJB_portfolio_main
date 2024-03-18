@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import { footer } from "../../app/utils/constants/footerDetails";
+import { footer } from "@/app/lib/footerDetails";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
-import motion from "framer-motion";
+
 
 function Footer() {
 	return (
@@ -26,12 +26,12 @@ function Footer() {
 													className="items-center flex text-[#929697]"
 												>
 													{item.icon && (
-														<span className="pr-2 -mb-1">
+														<div className="pr-2 -mb-1">
 															<SocialIcon
 																url={item.link}
 																style={{ height: 40, width: 40 }}
 															/>
-														</span>
+														</div>
 													)}
 													{item.name}
 												</a>
@@ -108,7 +108,7 @@ function Footer() {
 							</span>
 							<span>
 								<img
-									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
 									width="26"
 									title="TailwindCSS"
 								/>
