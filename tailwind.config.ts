@@ -12,6 +12,9 @@ const config: Config = {
       sans: ["Poppins", "Inter", "system-ui", "sans"],
       monospace: ["DM Mono", "monospace"],
     },
+    plugins: [
+      require('tailwind-scrollbar-hide')
+    ],
     colors:{
       black: colors.black,
       white: colors.white,
