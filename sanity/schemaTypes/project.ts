@@ -66,7 +66,8 @@ export default defineType({
           {title: 'Zustand', value: 'Zustand'},
           {title: 'Node JS', value: 'Node Js'},
           {title: 'Mongo-DB', value: 'Mongo db'},
-          {title: 'FireBase', value: 'Firebase'}
+          {title: 'FireBase', value: 'Firebase'},
+          {title,"TypeScript", value: "TypeScript"}
         ]
       }
     }),
