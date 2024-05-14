@@ -59,6 +59,7 @@ export default defineType({
           {title: 'Next.JS', value: 'Next.JS'},
           {title: 'React.js', value: 'React.js'},
           {title: 'Tailwind', value: 'Tailwind'},
+          {title: 'Sass', value: 'Sass'},
           {title: 'CSS', value: 'CSS'},
           {title: 'GraphQl', value: 'GraphQL'},
           {title: 'TRPC', value: 'TRPC'},
@@ -67,7 +68,7 @@ export default defineType({
           {title: 'Node JS', value: 'Node Js'},
           {title: 'Mongo-DB', value: 'Mongo db'},
           {title: 'FireBase', value: 'Firebase'},
-          {title,"TypeScript", value: "TypeScript"}
+          {title,'TypeScript', value: 'TypeScript'}
         ]
       }
     }),
