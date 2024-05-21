@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 import Link from "next/link";
 import React from "react";
-import { footer } from "@/app/lib/footerDetails";
+import { footer } from "@/lib/footerDetails";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 
@@ -13,7 +12,7 @@ function Footer() {
 				{footer.columns.map((item, index) => {
 					return (
 						<div key={index} className="text-left mb-5 sm:mb-0">
-							<h4 className="uppercase text-[#edeff0] text-sm font-bold">
+							<h4 className="uppercase  text-[#edeff0] text-sm font-bold ">
 								{item.title}
 							</h4>
 							<div>
@@ -24,7 +23,7 @@ function Footer() {
 												<a
 													href={item.link}
 													target="_blank"
-													className="items-center flex text-[#929697]"
+													className="items-center  flex text-[#929697]"
 												>
 													{item.icon && (
 														<div className="pr-2 -mb-1">
@@ -148,7 +147,6 @@ function Footer() {
 		</footer>
 	);
 }
-=======
 // import Link from "next/link";
 // import React from "react";
 // import { footer } from "../../app/utils/constants/footerDetails";
@@ -298,6 +296,5 @@ function Footer() {
 // 		</footer>
 // 	);
 // }
->>>>>>> 6f1c6a83c3218f5fd6040131023da4d8e87b0cf3
 
-// export default Footer;
+export default Footer;

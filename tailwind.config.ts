@@ -39,6 +39,19 @@ const config: Config = {
         "fun-pink-darkest": "#000c24",
         "fun-pink-dark": "#192742",
         "fun-pink-light": "#009ac5",
+        'green-vogue': {
+          '50': '#e9fbff',
+          '100': '#cef5ff',
+          '200': '#a7f0ff',
+          '300': '#6bebff',
+          '400': '#26daff',
+          '500': '#00b6ff',
+          '600': '#008cff',
+          '700': '#0071ff',
+          '800': '#0061e6',
+          '900': '#0056b3',
+          '950': '#002244',
+      },
       },
       rotate: {
         '360': '360deg'

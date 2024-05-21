@@ -7,9 +7,9 @@ import { testimonials } from "@/app/lib/homePageData";
 
 function Testimonials() {
 	return (
-		<div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto h-[70vh]">
+		<div className="flex flex-col text-left max-w-md md:max-w-full w-full m-auto ">
 			<SectionTitle title="Why people love my work!" />
-			<div className="max-w-5xl m-auto max-h-[200px] grid grid-cols-1 gap-10 md:gap-14 md:grid-cols-3 items-start mt-[10rem] ">
+			<div className="max-w-5xl m-auto  grid grid-cols-1 gap-16 md:gap-14 md:grid-cols-3 items-start mt-20 md:mt-24 ">
 				{testimonials.map((item, index) => {
 					return (
 						<motion.div

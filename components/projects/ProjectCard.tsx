@@ -11,7 +11,7 @@ function ProjectCard({ project }: ProjectCardProps) {
 
   return (
     <div
-      className=" max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center"
+      className="max-w-sm max-h-[900px] h-[500px] mx-auto flex flex-col projects-center md:projects-start md:justify-center "
       key={project.projectId}
     >
       <a
@@ -22,9 +22,10 @@ function ProjectCard({ project }: ProjectCardProps) {
         <Image
           className="w-full rounded-md object-cover overflow-hidden"
           src={project.posterImage}
-          width={200}
-          height={200}
+          width={300}
+          height={400}
           alt="Project Image"
+          layout="responsive"
         />
       </a>
       <div className="w-full mt-5">
@@ -55,7 +56,7 @@ function ProjectCard({ project }: ProjectCardProps) {
             )}
           </div>
         </div>
-        <p className="text-fun-gray text-left text-sm">{project.description}</p>
+        <p className="text-fun-gray text-left text-sm truncate text-ellipsis">{project.description}</p>
         <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
           {project.tags.map((tag, index) => {
             return (

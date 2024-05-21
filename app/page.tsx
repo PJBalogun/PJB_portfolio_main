@@ -14,7 +14,7 @@ export default async function Page() {
   return (
     <div>
       <Hero />
-      <div className="mt-20 space-y-32 max-h-full">
+      <div className="mt-20 space-y-24 ">
 
 
         <Suspense fallback={<div>Loading ......</div>}>
@@ -22,6 +22,7 @@ export default async function Page() {
         </Suspense>
         <Skills />
         <Testimonials />
+       
         {/* <Posts allPosts={allPosts} /> */}
       </div>
       <CTA />

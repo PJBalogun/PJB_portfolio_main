@@ -22,14 +22,14 @@ type Experiences ={
 const ExperienceList = ({experiences} : Experiences  ) => {
 
   return (
-    <div className="relative bg-[#0d1b29] text-white py-8 px-4  ">
+    <div className="relative bg-green-vogue-900/30 text-white py-8 px-4 rounded-lg">
       <div className="sticky inset-0 bg-gradient-to-r from-gray-800 to-transparent w-16"></div>
       <div className="sticky inset-0 bg-gradient-to-l from-gray-800 to-transparent w-16 right-0"></div>
       <div className="flex space-x-4  overflow-x-scroll no-scrollbar snap-x snap-mandatory">
         {experiences.map((job) => (
           <div
             key={job.id}
-            className="flex flex-col items-start bg-[#0070e0] rounded-lg px-5 py-10 flex-none w-[300px] md:w-[400px] flex-shrink-0 snap-center opacity-50 hover:opacity-100"
+            className="flex flex-col items-start bg-green-vogue-800 rounded-lg px-5 py-10 flex-none w-[300px] md:w-[400px] flex-shrink-0 snap-center"
           >
          <div className="flex justify-center w-full pt-10">
          <Image

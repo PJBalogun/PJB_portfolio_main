@@ -133,7 +133,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .menuRendered li {
-	@apply border-gray-600 w-full;
+	@apply border-green-vogue-100 w-full;
 	transform: translateX(0);
 	opacity: 1;
 }
@@ -153,7 +153,7 @@ body::-webkit-scrollbar-thumb {
 }
 /* Admin */
 .upload_image_input {
-	@apply w-full text-lg mx-auto outline-none bg-blue-950 bottom-4 rounded-lg p-4 text-white;
+	@apply w-full text-lg mx-auto outline-none bg-green-vogue-950 bottom-4 rounded-lg p-4 text-white;
 }
 .upload_image_list {
 	@apply  w-full flex flex-col sm:flex-row mx-auto items-center justify-evenly p-4  gap-10;
