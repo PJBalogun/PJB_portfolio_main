@@ -58,9 +58,12 @@ function Footer() {
 									href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
 									target="_blank"
 								>
-									<img
-										src="/misc/buy-me-a-coffee.svg"
+									<Image
+									 src="/misc/buy-me-a-coffee.svg"
 										className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
+										alt="coffee image"
+										height={15}
+										width={15}
 									/>
 								</a>
 							</div>
@@ -71,9 +74,12 @@ function Footer() {
 									href={`https://paypal.me/${footer.support.paypal}`}
 									target="_blank"
 								>
-									<img
+									<Image
 										src="/misc/paypal.svg"
 										className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
+										alt="pay icon"
+										height={10}
+										width={10}
 									/>
 								</a>
 							</div>
@@ -90,26 +96,32 @@ function Footer() {
 						Made with{" "}
 						<div className="space-x-2 inline-flex items-center -mt-1 ml-3">
 							<span>
-								<img
+								<Image
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-									width="26"
+									width={26}
+									height={18}
+									alt="react icon"
 									title="React"
 								/>
 								<span className="sr-only">React</span>
 							</span>
 							<span>
-								<img
+								<Image
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-									width="40"
+									width={40}
 									className="invert"
+									alt="Next.js icon"
 									title="NextJS"
+									height={18}
 								/>
 								<span className="sr-only">NextJS</span>
 							</span>
 							<span>
-								<img
+								<Image
 									src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-									width="26"
+									width={26}
+									height={18}
+									alt="Tailwind icon"
 									title="TailwindCSS"
 								/>
 								<span className="sr-only">TailwindCSS</span>

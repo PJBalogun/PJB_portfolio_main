@@ -1,4 +1,5 @@
 import React from "react";
+import  Image  from 'next/image';
 
 function CTA() {
   return (
@@ -16,10 +17,13 @@ function CTA() {
         </a>
       </div>
 
-      <img
+      <Image
         className="sqD min-w-[800px] bottom-[-100px] left-1/2 sm:bottom-[-150px] -translate-x-1/2 object-cover sm:min-w-[1100px]"
         style={{ zIndex: "-10" }}
         src="/"
+        alt="iamge"
+        height={}
+        width={}
       />
     </div>
   );
