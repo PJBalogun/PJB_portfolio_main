@@ -64,7 +64,7 @@ function Navbar() {
 								return (
 									<li
 										key={index}
-										className={`list-none hover:px-5 px-3 ease-in-out delay-400 transition text-white ${pathname === item.path
+										className={`list-none hover:px-5 px-3 ease-in-out delay-400 transition text-white ${pathname === route.path
 											? "opacity-100"
 											: "opacity-50 hover:opacity-100 transition-opacity "
 											} text-lg`}
