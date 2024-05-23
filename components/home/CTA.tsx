@@ -22,8 +22,8 @@ function CTA() {
         style={{ zIndex: "-10" }}
         src="/"
         alt="iamge"
-        height={}
-        width={}
+        height={10}
+        width={10}
       />
     </div>
   );

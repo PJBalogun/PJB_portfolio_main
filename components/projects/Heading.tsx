@@ -18,17 +18,20 @@ function Heading({ tag }: HeadingProps) {
               className="sqD w-8 sm:w-10 -top-6 -right-2 sm:-right-8 sm:-top-8 absolute"
               src="/static/doodles/hero/code.svg"
               alt="image"
-              width={}
-              height={}
+              width={10}
+              height={10}
             />
           </h1>
         </>
       ) : (
         <h1 className="text-4xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
           Projects
-          <img
+          <Image
             className="sqD w-10 -top-8 -right-8 absolute"
             src="/static/doodles/hero/code.svg"
+            alt="image"
+            width={10}
+            height={10}
           />
         </h1>
       )}
