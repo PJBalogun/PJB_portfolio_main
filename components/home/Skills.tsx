@@ -13,7 +13,7 @@ function Skills() {
     <SectionTitle title="I got the experience."/>
     <div className="flex flex-col md:flex-row justify-between  h-[70vh]">
   
-  <motion.h2 className="relative flex sm:justify-between justify-center items-center text-2xl w-full text-center text-green-vogue-300 md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 "  initial={{ opacity: 0, scale: 0.5, x: 300, y:-200 }}
+  <motion.h2 className="relative flex mt-20 sm:justify-between justify-center items-center text-2xl w-full text-center text-green-vogue-300 md:text-left font-bold md:max-w-lg mb-10 md:mr-10 md:mb-0 md:w-max mr-0 "  initial={{ opacity: 0, scale: 0.5, x: 300, y:-200 }}
     whileInView={{ opacity: 1, scale: 1, x:0 ,y:0 }}
     transition={{ duration: 0.6 }}>
         

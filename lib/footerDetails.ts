@@ -37,8 +37,8 @@ type FooterCol = {
             leavesWebsite: false,
           },
           {
-            name: "Designs",
-            link: "/designs",
+            name: "Experience",
+            link: "/experience",
             leavesWebsite: false,
           },
         ],
@@ -80,8 +80,8 @@ type FooterCol = {
       },
     ],
     support: {
-      buymeacoffee: "braydenw",
-      paypal: "braydentw",
+      buymeacoffee: "pelumiJP",
+      paypal: "pelumiJP",
       message: "I appreciate your support very much! 💙",
     },
   };

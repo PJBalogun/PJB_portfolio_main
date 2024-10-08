@@ -8,10 +8,6 @@ export const routes: Route[] = [
 		title: "Home",
 		path: "/",
 	},
-    {
-		title: "About Me",
-		path: "/about_me",
-	},
 	// {
 	//   title: "Blog",
 	//   path: "/blog",
