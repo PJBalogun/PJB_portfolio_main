@@ -16,10 +16,7 @@ export default async function Page() {
       <Hero />
       <div className="mt-20 space-y-24 mx-auto">
 
-          <Projects/>
-        <Skills />
-        <Testimonials />
-       
+          
         {/* <Posts allPosts={allPosts} /> */}
       </div>
       <CTA />
