@@ -13,7 +13,7 @@ export default async function Page() {
 
   return (
     <div>
-      <Hero />
+{/*       <Hero /> */}
       <div className="mt-20 space-y-24">
 
           
