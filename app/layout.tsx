@@ -22,7 +22,7 @@ export default function RootLayout({
 							style={{ maxWidth: "1440px" }}>
 							<div className="p-5 w-full flex-1 text-center bg-bg">
 								<div className="relative">
-{/* 									<Navbar /> */}
+									<Navbar />
 								</div>
 								<div className="m-5 block sm:hidden z-100">
 									{/* <MobileNavbar /> */}
@@ -30,7 +30,7 @@ export default function RootLayout({
 								{children}
 							</div>
 						</main>
-{/* 						<Footer /> */}
+						<Footer />
 					</body>
     </html>
   );
