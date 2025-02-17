@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" className="text-[70%] sm:text-[75%] md:text-[100%] overflow-x-hidden">
       <body className="overflow-x-hidden w-full">
         <main className="w-full flex flex-col items-center justify-center md:min-h-screen text-white overflow-hidden"
-          style={{ maxWidth: "1440px" }}>
+          style={{ maxWidth: "1200px" }}>
           <div className="p-5 w-full flex-1 text-center bg-bg overflow-hidden">
             <div className="relative">
               <Navbar />
