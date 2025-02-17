@@ -18,11 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="text-[70%] sm:text-[75%] md:text-[100%]">
       <body className={``}>
-						<main className="w-full  flex flex-col items-center justify-center md:min-h-screen opening-box-animate-padding text-white "
+						<main className="w-full  flex flex-col items-center justify-center md:min-h-screen text-white "
 							style={{ maxWidth: "1440px" }}>
 							<div className="p-5 w-full flex-1 text-center bg-bg">
 								<div className="relative">
-									<Navbar />
+{/* 									<Navbar /> */}
 								</div>
 								<div className="m-5 block sm:hidden z-100">
 									{/* <MobileNavbar /> */}
@@ -30,7 +30,7 @@ export default function RootLayout({
 								{children}
 							</div>
 						</main>
-						<Footer />
+{/* 						<Footer /> */}
 					</body>
     </html>
   );
