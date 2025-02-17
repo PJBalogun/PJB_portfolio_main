@@ -342,5 +342,3 @@ pre {
 	animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
 }
 
-	@apply absolute z-[-10];
-}
