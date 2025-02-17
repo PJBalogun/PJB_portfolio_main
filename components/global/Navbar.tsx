@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 function Navbar() {
 	const pathname = usePathname();
-	const [isSidebarOpen, setSidebarOpen] = useState(true);
+	const [isSidebarOpen, setSidebarOpen] = useState(false);
 
 	const variants = {
 		open: { opacity: 1, x: 0 },
