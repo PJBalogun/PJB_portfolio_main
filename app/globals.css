@@ -342,14 +342,5 @@ pre {
 	animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
 }
 
-.heroElem .sqD:not(.squiggle-hero-pop1) {
-	animation: float 2s infinite ease-in-out;
-}
-.heroTitle .sqD {
-	@apply scale-[0.8] lg:scale-100;
-}
-
-/* All svg squiggle decorations */
-.sqD {
 	@apply absolute z-[-10];
 }
