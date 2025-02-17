@@ -5,7 +5,6 @@ import Hero from "@/components/home/Hero"
 import Skills from "@/components/home/Skills"
 import Testimonials from "@/components/home/Testimonials"
 import CTA from "@/components/home/CTA"
-import { Suspense } from 'react'
 import Projects from "@/components/home/Projects";
 import Loader from "@/components/global/Loader";
 

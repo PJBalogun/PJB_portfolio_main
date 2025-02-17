@@ -4,13 +4,14 @@ import Projects from "@/components/projects/Projects";
 import React from "react";
 import { loadQuery } from "@/sanity/lib/store";
 import { POSTS_QUERY } from "@/sanity/lib/queries";
+import Loader from "@/components/global/Loader";
 
 async function AllProjects() {
   try {
     const initial = await loadQuery<[]>(POSTS_QUERY);
 
     if (!initial || !initial.data || initial.data.length === 0) {
-      return <div>No projects available at the moment.</div>;
+      return <div><Loader/></div>;
     }
 
     return (

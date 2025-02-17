@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 function Navbar() {
 	const pathname = usePathname();
-	const [isSidebarOpen, setSidebarOpen] = useState(true);
+	const [isSidebarOpen, setSidebarOpen] = useState(false);
 
 	const variants = {
 		open: { opacity: 1, x: 0 },
@@ -51,7 +51,7 @@ function Navbar() {
 					})}				
 				</ul>
 				<div className="sm:hidden relative ">
-					<motion.div onClick={toggleSidebar} className="cursor-pointer hover:scale-150 transition" variants={variants}>
+					<motion.div onClick={toggleSidebar} className="cursor-pointer hover:scale-150 transition z-120" variants={variants}>
 						<Image
 							className="text-fun-gray-light"
 							src="/icons/hamburger.svg"
@@ -61,7 +61,7 @@ function Navbar() {
 						/>
 					</motion.div>
 					{
-						isSidebarOpen && <ul className="absolute z-100 right-2 mt-4 h-[60vh] w-96 z-100 flex flex-col items-start justify-start gap-12 p-5 sm:flex rounded-md border-r-2  bg-fun-pink-darker">
+						isSidebarOpen && <ul className="absolute z-100 right-2 mt-4 h-[60vh] w-96 z-100 flex flex-col items-start justify-start gap-12 p-5 sm:flex rounded-md border-r-2  bg-green-900">
 							{routes.map((route, index) => {
 								return (
 									<li

@@ -6,35 +6,35 @@ import { Link as ScrollLink } from "react-scroll";
 import { useTypewriter } from "react-simple-typewriter";
 
 function Hero() {
-  // react typewriter library
-  const [text] = useTypewriter({
-    words: ["Hey, I'm Pelumi.", "I'm a tech bro."],
-    loop: true,
-    delaySpeed: 2000,
-    typeSpeed: 150,
-  });
+  // // react typewriter library
+  // const [text] = useTypewriter({
+  //   words: ["Hey, I'm Pelumi.", "I'm a tech bro."],
+  //   loop: true,
+  //   delaySpeed: 2000,
+  //   typeSpeed: 150,
+  // });
 
-  // Framer motion variants for cursor
-  const cursorVariants = {
-    blink: {
-      opacity: [0, 1], // Blink effect (opacity alternates between 0 and 1)
-      transition: {
-        duration: 0.8, // Adjust duration to control speed
-        repeat: Infinity, // Loop forever
-        ease: "easeInOut", // Smooth transition
-      },
-    },
-  };
+  // // Framer motion variants for cursor
+  // const cursorVariants = {
+  //   blink: {
+  //     opacity: [0, 0.6], // Blink effect (opacity alternates between 0 and 1)
+  //     transition: {
+  //       duration: 0.8, // Adjust duration to control speed
+  //       repeat: Infinity, // Loop forever
+  //       ease: "easeInOut", // Smooth transition
+  //     },
+  //   },
+  // };
 
   return (
     <>
       <div className="heroElem w-full z-0 pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center">
         <div>
           <span className="min-h-[3rem] min-w-[3rem] text-[2rem] mb-5 block">
-            {text}
+            {"text"}
             <motion.span
               className="inline-block text-[2rem] z-0"
-              variants={cursorVariants}
+       
               animate="blink"
             >
               <span className="text-[2rem] z-0">|</span>
