@@ -18,9 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="text-[70%] sm:text-[75%] md:text-[100%]">
       <body className={``}>
-						<main
-  className="w-[500px] mx-auto max-w-[1440px] mx-auto  md:min-h-screen opening-box-animate-padding text-white"
->
+						<main className="w-full sm:w-[500px] max-w-[1440px] mx-auto md:min-h-screen opening-box-animate-padding text-white">
 							<div className="p-5 w-full flex-1 text-center bg-bg">
 								<div className="relative">
 									<Navbar />
