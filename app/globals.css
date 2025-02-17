@@ -38,16 +38,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap");
 
 body {
-	
+	width: 100%;
 	min-height: 100vh;
-	
+	overflow-x: hidden;
 	@apply bg-bg;
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
 	width: 8px;
 	background: transparent;
-} */
+}
 
 body::-webkit-scrollbar-track {
 	background: blue;
